@@ -4,7 +4,7 @@
     }
     .nav-title{
         top: 30px;
-        left: 30px;
+        left:30px;
     }
     .nav-links{
         flex-direction: row;
@@ -67,27 +67,31 @@ button{
 } 
 .tours-container img{
     margin-left:50px; 
-}   
+}
 
 .destination{
-    margin-top: 40px;
-    display: flex;
-    flex-wrap:nowrap;
+    margin-top: 70px;
 }
+.img-row1{
+    flex-direction: column;
+    margin-left:40px;
+}
+.img-row1 img{
+    width:500px;
+    height:300px;
+}
+
 .dest-title{
-    margin-left: 50px;
+    font-size:30px ;
+    margin-left: 90px;
 }
 .dest-desct{
     margin-left: 100px;
 }
-.mg-row1{
-    grid-template-columns: repeat(auto-fit,min(300px,1fr));
-    grid-auto-rows: 200px;
 
-}
-.img-content{
-    display: flex;
-    flex-direction: column;
+.img-content{ 
+   display: flex;
+   flex-direction: column;
 }
 .img-card{
     width: 460px;
@@ -127,6 +131,54 @@ button{
     margin-top: 20px;
     margin-left: -20px;
 }
+.sign-up{
+    flex-direction: column;
+}
 
+.from-singup{
+    width: 494px;
+    margin-left: 50px;
+}
+.from-singup input{
+    width: 400px;
+    height: 50px;
+    padding: 0 10px;
+    margin: 10px 40px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.from-singup button{
+    width: 410px;   
+}
+.img{
+    width: 490px;
+    margin-left: 60px;
+}
+.travel-com{
+    margin-left: 290px;
+    
+}
+
+.star-travel{
+    height: 360px;
+    margin-top: 60px;
+ }
+ .footer-ctan h1{
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 10px;
+ }
+ .ftr-discp{
+     margin-left: 90px;
+ }
+ .footer-icon{
+     margin-left: 180px;
+     margin-top: 30px;
+ }
+ .ftr-end{
+     margin-left: 180px;
+     margin-top: 40px;
+ }
     
 }

@@ -180,6 +180,10 @@ button img{
 .destination{
     margin-top: 70px;
 }
+.destination-tour{
+   padding: 0 20px;
+
+}
 .dest-cnten{
     text-align: center;
     margin-bottom: 40px;
@@ -364,9 +368,7 @@ button img{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     margin-bottom: 10px;
-
 }
-
 
 /*Sign up styles*/
 
@@ -466,6 +468,7 @@ button img{
     margin-top: 40px;
 }
 .ftr-end{
+    font-size: 15px;
     margin-left: 650px;
     margin-top: 45px;
 }
