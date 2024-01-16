@@ -9,15 +9,273 @@
 </head>
 <body>
     <header>
+        <nav class="navbar">
+            
+            <div class="nav-title"><h3> <img src="Images/Group 40071 (2).png" alt=""><span class="bar-h">S</span>tar  <span class="bar-h">Travel</span></h3></div>
+            
+            <ul class="nav-links">
+               <li class="active"><a href=""><span class="bar-h">Home</span> </a> </li>
+               <li><a href="">Packages</a></li>
+               <li><a href="">Testimonial</a></li>
+               <li><a href="">Blog</a></li>
+               <li><a href="">Contact</a></li>
+            </ul>
+           <img class="menu-btn" src="Images/Frame.svg" alt="">
+
+        </nav>
+        
+        <div class="banner">
+            <div class="banner-content">
+ 
+                <h1 class="banner-title">Explore Your Travel</h1>
+                <p class=" banner-prg">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+               
+                <div class="btn-pry">
+                    <button>Where go  </button>
+                    <button class="wh-img">When<img src="Images/Frame (1).svg" alt=""></button> 
+                    <button>Select Type <img src="Images/Frame (1).svg" alt=""></button>
+                    <button class="btn-df"><img src="Images/Frame2.svg" alt=""> Find Now</button>
+                </div>
+            </div>
+
+        </div>
 
     </header>
+    <script>
+      const menuBtn = document.querySelector('.menu-btn')
+      const navlinks = document.querySelector('.nav-links')
+      menuBtn.addEventListener('click',()=>{
+       navlinks.classList.toggle('mobile-menu')
+      })
+
+    </script>
+
     <main>
+        <section class="tours-container">
+           
+            <div class="toure-cnt"> 
+                
+                <h1 class="toure-title">Our Popular Tours</h1>
+                
+                <p class="toure-dscp">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+              
+            
+                <div class="card">
+                   
+                   <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                    
+    
+                </div>
+            
+                <div class="card">     
+                    
+                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+              
+                </div>
+           
+                <div class="card">
+              
+                    <li>
+                       Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at.
+                    </li>
+                
+                </div>
+              
+                <div class="card">  
+
+                   <p class="toure-discp">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+              
+                   <button class="rd-btn">Read More</button>
+               
+                </div>
+            
+            </div>   
+           
+            <div>
+            <img src="Images/Rectangle 4.png" alt="">
+
+            </div>
+
+
+        </section>
+       
+        <section class="destination">
+            
+            <div class="dest-cnten">
+               
+               <h1 class="dest-title">Choose Your Destination</h1>
+               <p class="dest-desct" >Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p> 
+
+            </div>
+           
+            <div class="img-row1">
+                 
+                <img src="Images/Rectangle 5.png" alt=""> 
+                <img src="Images/Rectangle 8.png" alt="">
+
+                <div class="maldives"><h3>Maldives</h3></div>
+                     
+                <div class="indonesia"><h3>Indonesia</h3></div>
+                
+            </div> 
+
+            <div class="img-row1">
+                 
+                <img src="Images/Rectangle 6.png" alt=""> 
+                <img src="Images/Rectangle 7.png" alt="">
+                <img src="Images/Rectangle 9.png" alt="">
+               
+                <div class="srilanka"><h3>Srilanka</h3></div>
+ 
+                <div class="america"><h3>North America</h3></div>
+                
+                <div class="kashmir"><h3>Kashmir</div>
+            </div>
+            <div class="img-row1">
+                 
+                <img src="Images/Rectangle 11.png" alt=""> 
+                <img src="Images/Rectangle 10.png" alt="">
+        
+                <div class="bangladesh"><h3>Bangladesh</h3></div>
+                             
+                <div class="bandarban"><h3>Bandarban</h3></div>
+                        
+            </div>
+
+        </section>
+       
+      <!--Tour plans--> 
+
+        <section class="price-container">
+                              
+            <h2 class="popular">Check your tour plans</h2>
+
+            <div class="img-content">
+               
+                <div class="img-card">
+                  
+                  <img src="Images/travel-1.png" alt="">
+                  <h3>Team tour</h3>
+                  <h4>$500.48/Person</h4>
+                  <span class="rating"><img src="Images/star-regular.svg" alt="">5.0</span>
+                  <p>Confirm your tour recent packages</p>
+              
+                </div>
+           
+                <div class="img-card">
+                   
+                    <img src="Images/travel-2.png" alt="">
+                    <h3>Team tour</h3>
+                    <h4>$420.25</h4>
+                    <span class="rating"><img src="Images/star-regular.svg" alt="">4.0</span>
+                    <p>Get secured tour plan with your spouse</p>     
+
+                </div>
+                
+                <div class="img-card">
+                    
+                    <img src="Images/travel-4.png" alt="">
+                    <h3>Team tour</h3>
+                    <h4>$300.00</h4>
+                    <span class="rating"><img src="Images/star-regular.svg" alt="">3.9</span>
+                    <p>Make your adventures comfortable</p>
+
+                </div>
+        
+ 
+            </div>
+           
+
+        </section>
+
+
+
+
+       
+        <section class="service">
+           
+            <div class="choose-service">
+
+               <h1 class="serv-title">Why Choose Us</h1>
+               <p class="serv-desct">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+            
+            </div>
+            
+            <div class="service-box">
+                
+                <div class="servs-box">
+                  <img class="hotel" src="Images/hotel 1.svg" alt="">
+               
+                  <h2 class="hotel-title">Handpicked Hotels</h2>
+
+                  <p class="hotel-despt">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+
+                </div>
+           
+                <div class="servs-box1">
+                  <img class="map" src="Images/map 1.svg" alt="">
+                
+                  <h2 class="map-title">World Class Service</h2>
+                
+                   <p class="service-dets">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+ 
+                </div>
+            
+                <div class="servs-box2">
+                  <img class="price-tag" src="Images/price-tag 1.svg" alt="">
+                
+                  <h2 class="bt-price-title">Best Price Guarantee</h2>
+                
+                  <p class="prs-descp">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+ 
+                </div>
+ 
+            </div>
+
+        </section>
+        <section class="newsletter">
+          
+            <div class="sign-up">
+                <div class="from-singup">
+                  
+                  <h2>Newsletter</h2>
+                  <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                  <input type="text" placeholder="Enter your name"> <br>
+                  <input type="text" placeholder="Enter your email">
+                  <button>Subscribe</button>
+
+                </div>
+                <div class="sig-img">
+                   <img class="img" src="Images/Rectangle 8 (1).png" alt="" srcset="">
+                    <div class="travel-com">
+                     <h5>Travel.com</h5>
+                     <p>Save up to 70%</p>
+                    </div>
+               
+                </div>
+            
+            </div>
+
+
+        </section>
 
 
     </main>
     <footer>
+        <div class="star-travel">
+            
+            <div class="footer-ctan">
+                <h1><img src="Images/Group 40071 (2).png" alt="">  <span class="bar-h">S</span>tar  <span class="bar-h">Travel</span> </h1>
+                <p class="ftr-discp">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+            </div>
+            
+            <img class="footer-icon" src="Images/Social.svg" alt="">
+           
+            <p class="ftr-end">2017, All Rights Reserved.</p>
+         
 
-        
+        </div>
+
     </footer>
     
 </body>
