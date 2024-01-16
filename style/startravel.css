@@ -80,7 +80,7 @@ ul{
     justify-content: center;
     margin-top:100px;
     margin-bottom:0px;
-    color: #FFF;
+    color: #b655bb;
     font-size: 60px;
     font-weight: 600;
 }
@@ -89,7 +89,7 @@ ul{
     margin-top:20px;
     margin-left: auto;
     margin-right: auto;
-    color: #FFF;
+    color: #432b47;
     font-size: 12px;
 }
 .btn-pry{
@@ -285,7 +285,6 @@ button img{
 .img-card{
     width: 350px;
     height: 310px;
-    
     border-radius: 3px;
     background: #FFF;
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
@@ -327,9 +326,7 @@ button img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
-
 .servs-box {
     flex-basis: 590px ;
     height: 270px;
@@ -414,6 +411,17 @@ button img{
     color: #FFF;
     background: #FF5400;
 }
+.hr-line{
+    width: 60%;
+    height:1px;
+    border: 0 none;
+    margin-right:0;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color : rgb(234, 188, 188);
+
+}
 .sig-img{
     position: relative;
 }
@@ -448,27 +456,41 @@ button img{
 /*footer styles*/
 
 .star-travel{
+   width:auto ;
    height: 360px;
    margin-top: 60px;
+   background: rgba(19, 19, 24, 0.05);
+   
 }
-.footer-ctan h1{
+.s-icon{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    padding-top: 50px;
+
 }
 .ftr-discp{
     width: 490px;
     color: #5A5A5D;
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 520px;
 }
 .footer-icon{
     margin-left: 650px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .ftr-end{
     font-size: 15px;
     margin-left: 650px;
     margin-top: 45px;
+}
+.h-line{
+    width: 50%;
+    height:1px;
+    border: 0 none;
+    margin-right:0;
+    margin-left: 400px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background: rgb(237, 192, 192);
+
 }
